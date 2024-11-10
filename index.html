@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Resume Builder By Muhammad Shayan ul haq</h1>
+    <form id="resumeForm">
+        <feildset>
+            <legend>Personal Information </legend>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone: </label>
+            <input type="tel" id="phone" name="phone" required>
+        </feildset>
+        <fieldset>
+            <legend>Education</legend>
+            <label for="education">Education</label>
+            <textarea name="education" id="education" rows="4" required></textarea> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Experince</legend>
+            <label for="experince">Experince</label>
+            <textarea name="eexperince" id="experince" rows="4" required></textarea> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="skills">Skills</label>
+            <textarea name="skills" id="skills" rows="4" required></textarea> <br>
+        </fieldset>
+        <button type="submit"> Genrate Your Resume </button>
+
+    </form>
+</body>
+</html>
